@@ -3,7 +3,7 @@ const client = new Discord.Client();
  
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-   client.user.setActivity("zhelp|AboRoh",{type: 'WATCHING'})
+   client.user.setActivity("ahelp|AboRoh",{type: 'WATCHING'})
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -37,7 +37,7 @@ const queue = new Map();
  
  
  
-var prefix = "z" 
+var prefix = "a" 
 client.on('message', async msg => {
     if (msg.author.bot) return undefined;
    
